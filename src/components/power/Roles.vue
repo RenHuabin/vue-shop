@@ -142,8 +142,10 @@
         <el-form-item label="角色名称">
           <el-input v-model="editRoles.roleName"></el-input>
         </el-form-item>
-        <el-form-item label="角色描述" prop="roleDesc"> </el-form-item>
-        <el-input v-model="editRoles.roleDesc"></el-input>
+        <el-form-item label="角色描述" prop="roleDesc">
+            <el-input v-model="editRoles.roleDesc"></el-input>
+        </el-form-item>
+
       </el-form>
       <span slot="footer" class="dialog-footer">
         <el-button @click="editDialogVisible = false">取 消</el-button>
