@@ -15,6 +15,15 @@ module.exports = {
     }
   },
   devServer: {
+    // 跨域配置
+    // proxy: {
+
+    //   'result.jsp': {
+    //     target: 'https://m.kuaidi100.com',
+    //     secure: false,
+    //     changeOrigin: true
+    //   }
+    // },
     hot: true
   }
 }
